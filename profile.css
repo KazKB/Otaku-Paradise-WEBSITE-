@@ -1,0 +1,39 @@
+#icon {
+    text-indent: -99999em;
+    background: url(../Images/profile-icon.png) no-repeat center;
+    height: 2.5em;
+}
+
+.wrapper p, .wrapper h3 {
+    color: black;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.wrapper p {
+    font-weight: 500;
+}
+.wrapper a {
+    text-decoration: none;
+    color: black;
+}
+.wrapper a:hover {
+    color: #A057DB;
+}
+
+#order-history {
+    text-align: left;
+    padding-left: 10%;
+    border-bottom: 0.1em solid grey;
+}
+#history {
+    font-size: 0.7em;
+    margin-bottom: 20em;
+}
+button {
+    border: 0;
+    font-weight: bold;
+    margin-left: 78%;
+    margin-bottom: 1em;
+    background-color: white;
+    cursor: pointer;
+}

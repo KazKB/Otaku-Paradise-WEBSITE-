@@ -1,0 +1,40 @@
+main p, main h3 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 250;
+}
+
+main h3 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+img {
+    border-radius: 0.5em;
+}
+
+.text {
+    font-size: 0.7em;
+    margin: 2em;
+}
+.crew {
+    width: 150px;
+    margin: 1em auto 0.5em;
+}
+
+#wrapper {
+    width: 75%;
+    margin: 2em auto;
+}
+
+@media only screen and (min-width: 700px) {
+    .text {
+        font-size: 1em;
+    }
+    .crew {
+        width: 300px;
+    }
+
+    #wrapper {
+        width: 50%;
+    }
+}
