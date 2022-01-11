@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "College-Block";
+    src: url("../College_Block_2.0_D.otf") format("opentype");
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+div, table, #view-all {
+    text-align: center;
+}
+.banner-overlay, .black-cover {
+    position: absolute;
+}
+
+.banner {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.banner img {
+    height: 238px;
+    width: 500px;
+}
+.banner-overlay {
+    top: 30%;
+    width: 100%;
+    margin: 0 auto;
+}
+.banner-title, .browse {
+    font-family: "College-Block";
+    font-size: 1.5em;
+    font-weight: normal;
+}
+.banner-title{
+    color: white;
+    margin-bottom: 1em;
+}
+.browse {
+    width: 3.3em;
+    margin: auto;
+    background-color: white;
+    cursor: pointer;
+    padding: 0 0.5em 0 0.4em;
+}
+.price {
+    font-weight: bold;
+}
+.black-cover {
+    top: 0.001em;
+    height: 238px;
+    width: 500px;
+    background-color: black;
+    opacity: 0.3;
+}
+
+table {
+    margin: 1em auto;
+}
+
+
+table img {
+    margin-top: 2em;
+}
+table p {
+    margin-bottom: 0.5em;
+}
+
+main th, #view-all {
+    color: white;
+    padding: 0.5em;
+}
+
+main th {
+    background-color: #DB5657;
+    
+    padding-bottom: 0;
+}
+
+#view-all {
+    display: block;
+    width: 5em;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    background-color: black;
+}
+
+@media only screen and (min-width: 501px) {
+    .banner img, .black-cover {
+        height: 333px;
+        width: 700px;
+    }
+}
+
+@media only screen and (min-width: 701px) {
+    .banner-overlay {
+        top: 35%;
+    }
+    .banner img, .black-cover {
+        height: 475px;
+        width: 1000px;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+    .banner-overlay {
+        top: 40%;
+    }
+    .banner img, .black-cover {
+        height: 713px;
+        width: 1500px;
+    }
+
+    table h3, table p, #view-all p {
+        font-size: 1.2em;
+    }
+}
