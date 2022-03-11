@@ -32,7 +32,8 @@
 button {
     border: 0;
     font-weight: bold;
-    margin-left: 78%;
+    width: 5em;
+    margin-right: 1em;
     margin-bottom: 1em;
     background-color: white;
     cursor: pointer;

@@ -88,12 +88,7 @@
         </main>
         
         <!-- Footer of Site -->
-        <?php
-            if ($_SESSION == null)  //Checks If Session Is Empty
-                echo('<footer style="background-color: #A057DB; position: absolute; top: 79.2%; width: 100%;">');
-            else
-                echo('<footer style="background-color: #A057DB; position: absolute; top: 100%; width: 100%;">');
-        ?>
+         <footer style="background-color: #A057DB; position: absolute; top: 35em; width: 100%;">
             <h6 id="contact" style="cursor: pointer;" onclick="traverse('contact-us.php');">Contact Us</h6>
             <h6 style="cursor: pointer;" onclick="traverse('about-us.php');">About Us</h6>
             <h6 style="cursor: pointer;" onclick="traverse('terms.php');">Terms And Conditions</h6>

@@ -10,8 +10,8 @@ img {
 }
 
 table {
-    width: 90%;
-    margin: 0 5% 1em;
+    width: 10em;
+    margin: 0 auto 1em;
 }
 h4, tr {
     color: black;
@@ -22,8 +22,9 @@ h4, tr {
 }
 
 input[type=text], input[type=password] {
-    width: 80%;
-    margin: 0.5em 10%;
+    display: block;
+    width: 250em;
+    margin: 0.5em auto;
 }
 input[type=submit] {
     background-color: #A057DB;
