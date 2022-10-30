@@ -73,7 +73,7 @@
                     <source srcset="Images/figurine-sm.png" media="(min-width: 700px)"> 
                     <img src="Images/figurine-es.png" alt="Figurine">
                 </picture>
-                <p onclick="traverse('purchase.php'); sessionStorage.setItem('item', 'figurines')">Levi Figurine</p>
+                <p onclick="traverse('purchase.php')">Levi Figurine</p>
                 <p class="price" onclick="traverse('purchase.php')">$75.00</p>
             </div>
             <div class="item">
@@ -89,7 +89,7 @@
                     <source srcset="Images/poster-sm.png" media="(min-width: 700px)"> 
                     <img src="Images/poster-es.png" alt="Poster">
                 </picture>
-                <p onclick="traverse('purchase.php'); sessionStorage.setItem('item', 'posters')">Naruto Poster</p>
+                <p onclick="traverse('purchase.php')">Naruto Poster</p>
                 <p class="price" onclick="traverse('purchase.php')">$50.00</p>
             </div>
             <div class="item">
@@ -97,8 +97,7 @@
                     <source srcset="Images/new-arrivals-sm.png" media="(min-width: 700px)"> 
                     <img src="Images/new-arrivals-es.png" alt="Key Chains">
                 </picture>
-                <p onclick="traverse('purchase.php');
-                sessionStorage.setItem('item', 'new')">My Hero Academia <br> Key Chains</p>
+                <p onclick="traverse('purchase.php')">My Hero Academia <br> Key Chains</p>
                 <p class="price" onclick="traverse('purchase.php')">$45.00</p>
             </div>
             <div class="item">
@@ -106,7 +105,7 @@
                     <source srcset="Images/best-seller-sm.png" media="(min-width: 700px)"> 
                     <img src="Images/best-seller-es.png" alt="Key Chain">
                 </picture>
-                <p onclick="traverse('purchase.php'); sessionStorage.setItem('item', 'best')">Kurumi Key Chain</p>
+                <p onclick="traverse('purchase.php')">Kurumi Key Chain</p>
                 <p class="price" onclick="traverse('purchase.php')">$15.00</p>
             </div>
             <div class="item">
@@ -122,7 +121,7 @@
                     <source srcset="Images/figurine-sm.png" media="(min-width: 700px)"> 
                     <img src="Images/figurine-es.png" alt="Figurine">
                 </picture>
-                <p onclick="traverse('purchase.php'); sessionStorage.setItem('item', 'figurines')">Levi Figurine</p>
+                <p onclick="traverse('purchase.php')">Levi Figurine</p>
                 <p class="price" onclick="traverse('purchase.php')">$75.00</p>
             </div>
             <div class="item">
@@ -138,7 +137,7 @@
                     <source srcset="Images/poster-sm.png" media="(min-width: 700px)"> 
                     <img src="Images/poster-es.png" alt="Poster">
                 </picture>
-                <p onclick="traverse('purchase.php'); sessionStorage.setItem('item', 'posters')">Naruto Poster</p>
+                <p onclick="traverse('purchase.php')">Naruto Poster</p>
                 <p class="price" onclick="traverse('purchase.php')">$50.00</p>
             </div>
             <div class="item">
@@ -146,7 +145,7 @@
                     <source srcset="Images/new-arrivals-sm.png" media="(min-width: 700px)"> 
                     <img src="Images/new-arrivals-es.png" alt="Key Chains">
                 </picture>
-                <p onclick="traverse('purchase.php'); sessionStorage.setItem('item', 'new');">My Hero Academia <br> Key Chains</p>
+                <p onclick="traverse('purchase.php')">My Hero Academia <br> Key Chains</p>
                 <p class="price" onclick="traverse('purchase.php')">$45.00</p>
             </div>
             <div class="item">
@@ -154,7 +153,7 @@
                     <source srcset="Images/best-seller-sm.png" media="(min-width: 700px)"> 
                     <img src="Images/best-seller-es.png" alt="Key Chain">
                 </picture>
-                <p onclick="traverse('purchase.php'); sessionStorage.setItem('item', 'best');">Kurumi Key Chain</p>
+                <p onclick="traverse('purchase.php')">Kurumi Key Chain</p>
                 <p class="price" onclick="traverse('purchase.php')">$15.00</p>
             </div>
         </main>

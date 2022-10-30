@@ -43,7 +43,6 @@ if ($flag === false) { //Checks To See If There Is A Repeat Of Unique Informatio
     fclose($file);
 
     echo("<script>sessionStorage.setItem('profile', '1');  window.location = 'index.php';</script>");
-}
 fclose ($check);
 
 //Saves All The Information In Session Variables For Later Use 

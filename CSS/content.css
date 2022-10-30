@@ -1,6 +1,4 @@
-main { 
-    margin: 0 1em;    
-}
+
 select {
     margin: 0.5em 0 2em;
     border: 0.1em solid black;
@@ -10,20 +8,15 @@ select {
 
 .item {
     display: inline-block;
-    width: 13em;
-    margin: 0 auto;
+    margin: 0 10%;
     margin-bottom: 1em;
-}
-.item img {
-    width: auto;
-    margin: auto;
 }
 .item p, .price {
     cursor: pointer;
 }
 .item p {
     margin-top: 0.5em;
-    font-size: 1em;
+    font-size: 0.7em;
     text-align: center;
 }
 .price {
@@ -33,4 +26,18 @@ select {
 a {
     text-decoration: none;
     color: black;
+}
+
+@media only screen and (min-width: 400px) {
+    .item {
+        margin: 4%;
+    }
+    .item p {
+        font-size: 0.9em;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .item {
+        margin: 3%;
+    }
 }

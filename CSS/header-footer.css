@@ -35,7 +35,7 @@ header h1 {
     background: url(../Images/menu-m.png) no-repeat center;
 }
 #logo {
-    margin-left: 3em;
+    margin-left: 15%;
     height: 6em;
     width: 13em;
     background: url(../Images/logo-s.png) no-repeat left;
@@ -45,11 +45,11 @@ header h1 {
     display: none;
 }
 #cart {
-    right: 2em;
+    right: 5%;
     background: url(../Images/shopping-cart-s.png) no-repeat center;
 }
 #search {
-    right: 6em;
+    right: 15%;
     background: url(../Images/search-s.png) no-repeat center;
 }
 
@@ -99,6 +99,7 @@ header h1 {
 /***********Footer***********/
 footer {
     color: white;
+    /* border-bottom: 0.1em #DB5657 solid; */
 }
 
 footer h6 {
@@ -121,12 +122,13 @@ footer h6 {
 
 @media only screen and (min-width: 600px){
     #logo {
+        margin-left: 35%;
         background-position: center;
     }
 }
 
 @media only screen and (min-width: 700px) {
-    #profile, #cart, #search {
+    #profile, #cart {
         top: 3.5em;
     }
     #menu {
@@ -138,13 +140,17 @@ footer h6 {
         width: 16em;
         background: url(../Images/logo-m.png) no-repeat left;
     }
+    #cart {
+        right: 3%
+    }
     #profile {
         display: inline-block;
-        right: 5em;
+        right: 8%;
     }
     #search {
-        width: 15em;
-        right: 8em;
+        width: 20%;
+        top: 3.5em;
+        right: 14%;
         border: 0.1em solid black;
         border-radius: 0.5em;
         background-position: right;
@@ -153,7 +159,7 @@ footer h6 {
     #pop-up-menu {
         display: block;
         top: 6.7em;
-        right: 3em;
+        right: 3%;
         height: 2.5em;
         width: auto;
         background-color: white;
@@ -199,14 +205,14 @@ footer h6 {
     }
     #search {
         top: 7.5em;
-        right: 2em;
-        width: 15em;
+        right: 3%;
+        width: 20%;
         background: url(../Images/search-m.png) no-repeat right;
     }
 
     #pop-up-menu {
         top: 7em;
-        right: 20em;
+        right: 25%;
         width: auto;
     }
     #pop-up-menu p {
