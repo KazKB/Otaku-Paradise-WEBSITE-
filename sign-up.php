@@ -15,7 +15,7 @@ $flag = false;
 $check = fopen("users.csv", "r");
 
 while(!feof($check)) { //Put Each Item Of The CSV File As A Member of The Logins Array
-    $info = fgetcsv($check); //Breaks A Line Into An Array
+    $info[] = fgetcsv($check); //Breaks A Line Into An Array
 
     for ($i = 0; $i < count($info); $i++) { //Cycles Through The check Array To See If Their Is A Match For The Username, Email And Password Entered
         if ($username === $info[$i]) {
@@ -38,11 +38,12 @@ while(!feof($check)) { //Put Each Item Of The CSV File As A Member of The Logins
 
 if ($flag === false) { //Checks To See If There Is A Repeat Of Unique Information
     $file = fopen("users.csv", "a") or die("Unable to find file.");   //Open CSV File To Add New User Information To File
-    $userInfo = "\n$fName,$lName,$username,$email,$password,$city,$country,$date,$month,$year";
+    $userInfo = "$fName,$lName,$username,$email,$password,$city,$country,$date,$month,$year\n";
     fwrite($file, $userInfo);
     fclose($file);
 
     echo("<script>sessionStorage.setItem('profile', '1');  window.location = 'index.php';</script>");
+}
 fclose ($check);
 
 //Saves All The Information In Session Variables For Later Use 

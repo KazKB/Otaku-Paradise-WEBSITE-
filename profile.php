@@ -63,7 +63,7 @@
                     $email = $_SESSION["email"];
 
                     while(!feof($check)) { //Put Each Item Of The CSV File As A Member of The Logins Array
-                        $info = fgetcsv($check); //Breaks A Line Into An Array
+                        $info[] = fgetcsv($check); //Breaks A Line Into An Array
 
                         for ($i = 0; $i < count($info); $i++) { //Cycles Through The check Array To See If Their Is A Match For The Username, Email And Password Entered
                             if ($email === $info[$i]) {

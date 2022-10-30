@@ -10,7 +10,7 @@ $flagPassword = false;
 
 //Put Each Item Of The CSV File As A Member of The Logins Array
 while(!feof($users)) { 
-    $logins = fgetcsv($users); //Breaks A Line Into An Array
+    $logins[] = fgetcsv($users); //Breaks A Line Into An Array
 
     for ($i = 0; $i < count($logins); $i++) { //Cycles Through The Logins Array To See If Their Is A Match For The Username, Email And Password Entered
         if ($username === $logins[$i]) 
