@@ -66,9 +66,11 @@
                         $info[] = fgetcsv($check); //Breaks A Line Into An Array
 
                         for ($i = 0; $i < count($info); $i++) { //Cycles Through The check Array To See If Their Is A Match For The Username, Email And Password Entered
-                            if ($email === $info[$i]) {
-                                $_SESSION["city"] = $info[$i+2]; //Gets The City The User Lives In
-                                $_SESSION["country"] = $info[$i+3]; ////Gets The Country The User Lives In
+                            foreach ($info[$i] as $k => $j) {
+                                if ($email === $j) {
+                                    $_SESSION["city"] = $info[$i][$k+2]; //Gets The City The User Lives In
+                                    $_SESSION["country"] = $info[$i][$k+3]; ////Gets The Country The User Lives In
+                                }
                             }
                         }
                     }

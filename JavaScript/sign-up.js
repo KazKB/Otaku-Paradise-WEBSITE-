@@ -1,4 +1,3 @@
-<!-- 
 function validate() {
     if (signUp.firstName.value == "" || signUp.lastName.value == "" || signUp.username.value == "" || signUp.email.value == "" || signUp.password.value == "" || signUp.city.value == "" || signUp.country.value == "") { //Checkd If signUp Fields Are Empty
         alert("Fill In All Fields!");
@@ -9,4 +8,3 @@ function validate() {
         return false;
     }
 }
-//-->

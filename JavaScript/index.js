@@ -1,4 +1,3 @@
-<!--
 const Name = "stop";
 
 //Loads A Welcome Message On Load
@@ -25,4 +24,3 @@ function slideshow() {
       k = 0;
     setTimeout(slideshow, 5000); //Sets A Slide To Appear Every 5 Seconds And Restarts Slideshow Function
 }
-//-->

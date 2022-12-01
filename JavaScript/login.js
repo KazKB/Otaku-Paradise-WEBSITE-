@@ -1,4 +1,3 @@
-<!-- 
 function validate() {
     if (login.username.value == "" || login.email.value == "" || login.password.value == "") { //Checkd If Login Fields Are Empty
         alert("Fill In All Fields!");
@@ -9,4 +8,3 @@ function validate() {
         return false;
     }
 }
-//-->

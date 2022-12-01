@@ -1,4 +1,3 @@
-<!--
 function validate() {
     if (reviewForm.review.value == "Write Your Review Here" || reviewForm.review.value == "") {
         alert("Add A Review!");
@@ -53,4 +52,3 @@ function cart() {
         alert("Added To Cart");
     }
 }
-//-->

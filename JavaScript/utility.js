@@ -1,4 +1,3 @@
-<!-- 
 function popUpMenu() {
   var menu = document.getElementById("pop-up-menu"); //Gets Navigation Bar
   if (menu.style.display === "block") {
@@ -12,4 +11,3 @@ function popUpMenu() {
 function traverse(source) {
   window.location.href = source;
 }
-//-->

@@ -13,18 +13,20 @@ while(!feof($users)) {
     $logins[] = fgetcsv($users); //Breaks A Line Into An Array
 
     for ($i = 0; $i < count($logins); $i++) { //Cycles Through The Logins Array To See If Their Is A Match For The Username, Email And Password Entered
-        if ($username === $logins[$i]) 
+        foreach ($logins[$i] as $k => $j) {
+            if ($username === $j) 
             $flagName = true;
-        else if ($email === $logins[$i])
-            $flagMail = true;
-        else if ($password === $logins[$i])
-            $flagPassword = true;
-    }
+            else if ($email === $j)
+                $flagMail = true;
+            else if ($password === $j)
+                $flagPassword = true;
+        }
+}
 }
 fclose ($users);
 
 if ($flagName == true && $flagMail == true && $flagPassword == true) {//Checks If All The Information Entered Is Correct
-    echo("<script>sessionStorage.setItem('profile', '1'); window.location = 'index.php';</script>");
+    echo("<script>window.location = 'index.php';</script>");
 }
 else { //If Not Correct Tell The User They Entered Invalid And Send Them Back To The Login Page
     include("login.html"); //Includes The Html For The Login Page

@@ -1,4 +1,3 @@
-<!--
 //Depending On What Item Is Clicked, The Information Will Be Displayed
 if (sessionStorage.getItem("item") == "accessories") 
     picture.innerHTML = '<picture> <source srcset="Images/accessory-m.png" media="(min-width: 700px)"> <img src="Images/accessory-s.png" alt="Item"> </picture>';
@@ -12,5 +11,3 @@ else if (sessionStorage.getItem("item") == "new")
     picture.innerHTML = '<picture> <source srcset="Images/new-arrivals-l.png" media="(min-width: 700px)"> <img src="Images/new-arrivals-s.png.png" alt="Item"> </picture>';
 else if (sessionStorage.getItem("item") == "posters") 
     picture.innerHTML = '<picture> <source srcset="Images/poster-m.png" media="(min-width: 700px)"> <img src="Images/poster-es.png" alt="Item"> </picture>';
-    
-//-->
