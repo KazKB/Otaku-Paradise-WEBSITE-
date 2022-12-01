@@ -99,7 +99,7 @@ header h1 {
 /***********Footer***********/
 footer {
     color: white;
-    /* border-bottom: 0.1em #DB5657 solid; */
+    margin-top: 1.2em;
 }
 
 footer h6 {

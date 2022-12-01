@@ -26,7 +26,7 @@ while(!feof($users)) {
 fclose ($users);
 
 if ($flagName == true && $flagMail == true && $flagPassword == true) {//Checks If All The Information Entered Is Correct
-    echo("<script>window.location = 'index.php';</script>");
+    echo("<script>sessionStorage.setItem('profile', '1'); window.location = 'index.php';</script>");
 }
 else { //If Not Correct Tell The User They Entered Invalid And Send Them Back To The Login Page
     include("login.html"); //Includes The Html For The Login Page

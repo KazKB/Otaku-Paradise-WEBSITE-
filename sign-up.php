@@ -44,7 +44,7 @@ if ($flag === false) { //Checks To See If There Is A Repeat Of Unique Informatio
     fwrite($file, $userInfo);
     fclose($file);
 
-    echo("<script>window.location = 'index.php';</script>");
+    echo("<script>sessionStorage.setItem('profile', '1');  window.location = 'index.php';</script>");
 }
 fclose ($check);
 
